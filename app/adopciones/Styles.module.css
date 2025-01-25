@@ -1,0 +1,31 @@
+.card {
+    background-color: #ffffff;
+    margin: 40px;
+  }
+  
+  @media (max-width: 450px) {
+    .card {
+      margin: 20px;
+    }
+  }
+  
+  .cardImage {
+    border: solid var(--mantine-color-violet-filled);
+    border-radius: 2%;
+    cursor: pointer;
+  }
+  
+  .centerWithFlex {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+
+.mobileFilterButton {
+  z-index: 5;
+  position: fixed;
+  right: 16px;
+  top: 80px;
+}
